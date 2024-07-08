@@ -11,7 +11,9 @@ class MenuAdminScreen extends StatelessWidget {
          appBar: AppBar(
           title: Text(title),
           ),
-          body: CardWidget(),
+          body: Center(
+            child: CounterWidget(),
+          ),
           floatingActionButton: FloatingActionButton(
             child: Icon(Icons.add),
             onPressed: () => {},
