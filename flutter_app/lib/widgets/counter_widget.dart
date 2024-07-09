@@ -27,13 +27,13 @@ class _CounterWidgetState extends State<CounterWidget> {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Text(
-          'Counter: $_counter',
+          'Contador: $_counter',
           style: TextStyle(fontSize: _fontSize),
         ),
         SizedBox(height: 20),
         ElevatedButton(
           onPressed: _incrementCounter,
-          child: Text('Increment'),
+          child: Text('Incrementar'),
         ),
         SizedBox(height: 20),
         Slider(
